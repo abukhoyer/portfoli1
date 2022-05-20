@@ -1,0 +1,295 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+html{
+
+	scroll-behavior: smooth;
+}
+ul ,li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+/* header start */
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+	font-family: Barlow Semi Condensed;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 70px;
+}
+.headtext{
+	margin-top: 120px;
+}
+.headtext hr{
+	width: 150px;
+	border: none;
+	height: 3px;
+	background-color: black;
+	margin-left: 0;
+
+}
+.headtext h1{
+	color: #000;
+	font-family: Playfair Display;
+	font-size: 63px;
+}
+.headtext h2{
+	color: #ccc;
+}
+.headimag{
+	text-align: right;
+	margin-top: 20px;
+    
+	padding-bottom: 0px;
+
+}
+.headimag img {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  
+
+
+    border-radius: 50%;
+}
+@media (min-width: 768px){
+
+	.frontpage img {
+    margin-bottom: 0;
+    padding-bottom: 0;
+ 
+   
+   margin-top: 167px;
+    border-radius: 50%;
+}
+}
+
+
+.headoverly{
+	background-image: url('image/bg.jpg');
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position:  right bottom ;
+
+
+	}
+.headmail{
+	margin-top: 80px;
+}
+.headmail a{
+	display: block;
+	margin: 7px 0px;
+}
+.headmail a i{
+	background-color: #009bdf;
+}
+/* header end here */
+
+/* about start here */
+
+.about{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.about h6{
+	color: #009bdf;
+}
+.about h2{
+	font-family: Playfair Display;
+	font-size: 50px;
+	font-weight: 800;
+	line-height: 55px;
+	color: #000;
+}
+.aboutBelow{
+	margin-top: 80px;
+}
+.aboutLeft h3{
+	color:#009bdf;
+	font-family: Playfair Display;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 800;
+}
+.aboutRight p{
+	color: #888;
+}
+.aboutRight #more{
+	display: none;
+}
+/* about end here */
+/* what I do start here */
+.WhatIDo h2{
+	color: #000;
+	font-family: Playfair Display;
+	font-size: 50px;
+	line-height: 48px;
+	font-weight: 800;
+}
+.WhatIDoi i{
+	font-size: 70px;
+	color: #009bdf;
+	
+	 animation: mymove 3s infinite;
+	 position: relative;
+	
+}
+@keyframes mymove {
+  0%   {right: 0px;}
+  25%  {right: 10px;}
+  50%  {right: 0px;}
+ 
+}
+/* .WhatIDoi i:hover{
+	margin-right: -10px;
+
+} */
+.WhatIDoi{
+	overflow: hidden;
+	
+	text-align: right;
+}
+.freedesign{
+	margin-top: 100px;
+}
+.freedesign i{
+	color:#009bdf ;
+	font-size: 25px;
+}
+.freedesign span a{
+	font-size:25px;
+	margin-left: 10px;
+}
+.freedesign p{
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.bgimage{
+	background-image: url('image/bg1.jpg');
+	height: 400px;
+	background-repeat: no-repeat;
+	
+	background-size:100%;
+	background-attachment: fixed;
+}
+/* what I do start here */
+
+/* skill area start here */
+.skill{
+	margin-top: 100px;
+}
+.experiencehr{
+
+	width: 100%;
+	position: relative;
+   
+	
+}
+.experiencehr i{
+	position: absolute;
+	top: -10px;
+	right: 0;
+	height: 17px;
+	width: 17px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 50%;
+	padding-left:5px;
+	padding-bottom: 7px;
+	
+	margin-right:0;
+	
+
+}
+.experienceright h4{
+	color: #009bdf;
+	margin-top: 30px;
+}
+/* skill area start here */
+
+
+/* portfolio start here  */
+.portfolio{
+	margin-top: 100px;
+}
+.portfolioimag{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.portfolioimag img{
+	margin-top: 15px;
+}
+/* portfolio end here  */
+
+/* footer start here */
+
+.footer{
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+/* footer end here */
+
+
+/* about start here */
+ 
+ /* about skill area start here */
+ 
+ .skills{
+ 	margin-top: 120px;
+
+ }
+ .skills h1{
+ 	color: #fff;
+ }
+ .skills p{
+ 	color: #;
+ }
+.skillone{
+	background-color:#F28500;
+	padding: 50px;
+	margin-top:50px;
+
+}
+
+ /* about skill area end here */
+
+/* Experience area start here */
+.Experience{
+	margin-top: 100px;
+}
+
+/* Experience area start here */
+
+/* about start here */
+
+.drop{
+	display: none;
+	
+}
+
+/* service*/
+.service{
+	margin-top: 120px;
+}
+
+
+
+
+
+/* Footer */
+
+.footer h1 a{
+	font-size: 80px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+	transition: 2s;
+}
+.footer h1 a:hover{
+	color: green;
+}
